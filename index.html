@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>抹茶喫茶なごみ</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="「抹茶喫茶　なごみ」のWebサイトです。">
+  <meta name="keywords" content="なごみ,抹茶,喫茶店,カフェ,和風">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./icomoon (1)/style.css">
+  <script src="https://kit.fontawesome.com/9a3564b421.js"></script>
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $('.menu-btn').click(function () {
+        $('.header-nav').toggleClass('open');
+      });
+      $('.header-nav a').click(function () {
+        $('.header-nav').toggleClass('open');
+      });
+    })
+  </script>
+</head>
+
+<body>
+  <header>
+    <div class="inner">
+     <h1 class="logo"><a href="index.html"><span class="icon-uniE900"></span></a></h1>
+      <button type="button" class="menu-btn">menu</button>
+      <nav class="header-nav">
+        <ul>
+          <li><a href="index.html#about">当店について</a></li>
+          <li><a href="./menu/menu.html">メニュー</a></li>
+          <li><a href="index.html#access">営業時間・アクセス</a></li>
+          <li><a href="contact/index.html">ご予約・お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div id="kv">
+    </div>
+    <section id="about">
+      <div class="inner">
+         <p class="lead">
+          <h1>ようこそ、抹茶喫茶なごみへ</h1>
+          当店は、日本の伝統的な茶文化と現代的なカフェスタイルを融合させた空間です。<br>
+          厳選された抹茶や季節の甘味をお楽しみいただけます。<br>
+          日常の喧騒を忘れ、ゆったりとした時間をお過ごしください。<br>
+          伝統的な和の趣を大切にしながらも、気軽にお立ち寄りいただける雰囲気づくりを心がけています。
+        </p>
+      </div>
+    </section>
+
+    <section id="feature">
+      <div class="feature-image"></div>
+      <div class="feature-text">
+        <h1>澄んだ空気に包まれた<br>福岡の隠れ座敷</h1>
+
+        <p class="lead">
+          なつかしき日本の情景。<br>
+          福岡・八女の恵みを、静寂とともに。
+        </p>
+
+        <div class="contents-blk">
+          <h2><span>寛ぎの</span>空間</h2>
+
+          <p>
+            忙しい毎日の中で、ふと立ち寄りたくなるお店<br>
+            あわただしい日常をしばし忘れ、<br>
+            季節の美味を味わいながら、<br>
+            抹茶喫茶なごみで贅沢なひと時をお楽しみください。<br>
+          駅前の喧騒を忘れ、八女茶の深い甘みに浸る静寂のひととき。</p>
+        </div>
+
+        <div class="contents-blk">
+          <h2><span>おもてなしの</span>心</h2>
+
+          <p>食事も空間も、人の温もりを感じられる<br>
+            “おもてなし”があってこそ。<br>
+            心からの感動の時間を味わっていただくため、<br>
+            常にお客様と喜びを分かち合えるような<br>
+            食事であり、接客でなければならない……<br>
+            それが、抹茶喫茶なごみの考えるおもてなしの心です。</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu">
+      <div class="inner">
+         <p class="lead">
+          <br>
+           <h1>メニュー</h1>
+          福岡県を代表する地域ブランド茶の「八女茶」を使ったスイーツやお飲み物をお召し上がりいただけます。<br>
+          和食ランチでは栄養バランスに優れた、身体にやさしい料理を提供します。
+
+        </p>
+
+        <div class="item-blk">
+          <div class="item">
+            <p class="photo"><img src="./和風素材/かき氷のコピー.png" alt="宇治金時"></p>
+            <h2>宇治金時</h2>
+
+            <p class="text">日本の王道を味わうかき氷<br>
+              甘過ぎず、上品な味わい</p>
+
+            <p class="price">1,000円</p>
+          </div>
+
+          <div class="item">
+            <p class="photo"><img src="./和風素材/抹茶わらびのコピー.png" alt="八女玉露わらび餅"></p>
+
+            <h2>八女玉露わらび餅</h2>
+
+            <p class="text">
+              ぷるんと、つるんとした食感<br>
+              職人が丁寧に練り上げました</p>
+
+            <p class="price">800円</p>
+          </div>
+
+          <div class="item">
+            <p class="photo"><img src="./和風素材/抹茶パフェのコピー.png" alt="抹茶白玉パフェ"></p>
+            <h2>抹茶白玉パフェ</h2>
+
+            <p class="text">八女茶の魅力が詰まった<br>
+              和を堪能するパフェ</p>
+
+            <p class="price">1,200円</p>
+          </div>
+
+          <div class="item">
+            <p class="photo"><img src="./和風素材/抹茶ラテ.png" alt="抹茶ラテ"></p>
+            <h2>抹茶ラテ</h2>
+
+            <p class="text">
+              一杯ずつ丁寧に立てた<br>
+              八女茶ならではの深みと香り
+            </p>
+
+            <p class="price">700円</p><br>
+
+          </div>
+        </div>
+        <p class="btn"><a href="./menu/menu.html">もっと見る</a></p>
+      </div>
+      </div>
+      <br><br>
+      
+    </section>
+
+    <section id="access">
+      <h1>営業時間・アクセス</h1>
+      <p class="text">10時－18時　年中無休</p>
+      <img src="./和風素材/地図.png" alt="なごみまでの地図です">
+      <br><p class="text">和風駅から中央通りを真っ直ぐ歩いて5分です。</p>
+      <br><br>
+    </section>
+
+    <section id="reservation">
+      <h1>ご予約承ります。</h1>
+      <p class="lead">※ご希望当日の1ヵ月前から2日前の17時まで承ります。</p>
+
+      <p class="btn"><a href="./contact/index.html">ご予約・お問い合わせ</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <h1 class="logo"><a href="./index.html"><span class="icon-uniE900"></span></a></h1>
+    <div class="wrap-blk">
+      <p>居心地の良い空間で『抹茶喫茶なごみ』と共に、<br>
+        心に残る至福のひとときをお過ごしくださいませ。</p>
+
+      <ul>
+        <li><a href="tel:04512345678"><i class="fas fa-phone"></i>045-1234-5678</a></li>
+        <li><i class="fas fa-map-marker-alt"></i>福岡県福岡市和風駅前1丁目</li>
+      </ul>
+    </div>
+
+    <p class="copyright"><a href="index.html">抹茶喫茶なごみ</a> © 2025. All rights reserved.</p>
+  </footer>
+</body>
+
+</html>
